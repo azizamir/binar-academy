@@ -1,0 +1,83 @@
+.body {
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: -0.03%;
+  bottom: 90.66%;
+  background: rgba(0, 0, 0, 0.5);
+  /* width: 100%; */
+}
+
+.nav-logo {
+  /* position: absolute; */
+  width: 77px;
+  height: 33px;
+  left: 107px;
+  top: 28.7px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  /* letter-spacing: 0.1em; */
+  margin-left: 40px;
+}
+
+.nav-auth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-right: ; */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/main-bg.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-text {
+  color: white;
+  text-align: center;
+}
+
+.home-text h1 {
+  position: relative;
+}
+
+.home-btn {
+  position: relative;
+  align-items: center;
+}
+
+.game-container {
+  background-image: url(./assets/the-games-bg.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
