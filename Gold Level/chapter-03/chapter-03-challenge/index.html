@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chapter 3 Challenge</title>
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <!-- style css -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet" />
@@ -14,35 +17,173 @@
   <body>
     <!-- navbar start -->
     <nav class="nav-container">
-      <div class="nav-logo">Logo</div>
+      <div class="nav-logo">logo</div>
       <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
-        <a href="#">About Me</a>
+        <a href="#">home</a>
+        <a href="#">work</a>
+        <a href="#">contact</a>
+        <a href="#">about me</a>
       </div>
       <div class="nav-auth">
-        <button style="margin-right: 30px">Sign In</button>
-        <button>Sign Up</button>
+        <button>sign in</button>
+        <button>sign up</button>
       </div>
     </nav>
     <!-- navbar end -->
+
     <!-- homepage start -->
     <div class="home-container">
       <div class="home-text">
-        <h1>Play Traditional Game</h1>
+        <h1>play traditional game</h1>
         <br />
-        <p>Experience new traditional game</p>
+        <h3>Experience new traditional game</h3>
       </div>
       <br />
-      <button>Play Now</button>
+      <button class="home-btn">play now</button>
+      <a href="#">the story</a>
+      <div id="triangle-down"></div>
     </div>
     <!-- homepage end -->
-    <!-- game choice start -->
+
+    <!-- game gallery start -->
     <div class="game-container">
-      <div>a</div>
-      <div>a</div>
-      <div>a</div>
+      <div class="game-text">
+        <h3>What's so special?</h3>
+        <h1>the games</h1>
+      </div>
+      <div class="game-carousel">
+        <div id="carousel-triangle-left"></div>
+        <img src="./assets/rockpaperstrategy-1600.jpg" alt="" />
+        <div id="carousel-triangle-right"></div>
+      </div>
     </div>
+    <!-- game gallery end -->
+
+    <!-- game features start -->
+    <div class="feature-container">
+      <div class="blank-div-feature"></div>
+      <div class="feature-inner-container">
+        <h3>What's so special?</h3>
+        <h1>features</h1>
+        <br />
+        <div class="point-container">
+          <span class="dot"></span>
+          <h2>traditional games</h2>
+        </div>
+        <p>If you miss your childhood, we provide many traditional games here</p>
+        <br />
+        <div class="point-container">
+          <span class="dot"></span>
+          <h2>game suit</h2>
+        </div>
+        <br />
+        <div class="point-container">
+          <span class="dot"></span>
+          <h2>tbd</h2>
+        </div>
+      </div>
+    </div>
+    <!-- game features end -->
+
+    <!-- requirement start -->
+    <div class="req-container">
+      <h3>Can My Computer Run this game?</h3>
+      <div class="req-container-division">
+        <div class="req-inner-container">
+          <h1>system requirements</h1>
+          <table>
+            <tr>
+              <td id="td-div">
+                <p class="p-req-title">os:</p>
+                <p class="p-req-desc">Windows 7 64-bit only (No OSX support at this time)</p>
+              </td>
+              <td id="td-div">
+                <p class="p-req-title">PROCESSOR:</p>
+                <p class="p-req-desc">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+              </td>
+            </tr>
+            <tr>
+              <td id="td-div">
+                <p class="p-req-title">MEMORY:</p>
+                <p class="p-req-desc">4 GB RAM</p>
+              </td>
+              <td id="td-div">
+                <p class="p-req-title">STORAGE:</p>
+                <p class="p-req-desc">8 GB available space</p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="padding: 20px">
+                <p class="p-req-title">GRAPHICS:</p>
+                <p class="p-req-desc">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="blank-div-req"></div>
+      </div>
+    </div>
+    <!-- requirement end -->
+
+    <!-- testimoni start -->
+    <div class="testi-container">
+      <div class="outer-score-container">
+        <div class="score-container">
+          <h1>top scores</h1>
+          <br />
+          <p>This top score from various games provided on this platform</p>
+          <br />
+          <button class="score-btn">see more</button>
+        </div>
+      </div>
+      <div class="comment-container">
+        <div class="comment-tweet" id="tweet-one">
+          <div class="profile-tweet">
+            <div class="profil-img">
+              <img src="./assets/evan-lahti.jpg" alt="" id="profile-photo" />
+              <img src="./assets/ellipse-orange.png" alt="" id="profile-photo-bg" />
+            </div>
+            <div class="bio-text">
+              <div id="tweet-name">Evan Lahti</div>
+              <div id="tweet-occupation">PC Gamer</div>
+            </div>
+            <img src="./assets/twitter-card.png" alt="" id="twitter-card" />
+          </div>
+          <div class="message-tweet">“One of my gaming highlights of the year.”</div>
+          <div class="date-tweet">June 18, 2021</div>
+        </div>
+        <div class="comment-tweet" id="tweet-two">
+          <div class="profile-tweet">
+            <div class="profil-img">
+              <img src="./assets/evan-lahti.jpg" alt="" id="profile-photo" />
+              <img src="./assets/ellipse-orange.png" alt="" id="profile-photo-bg" />
+            </div>
+            <div class="bio-text">
+              <div id="tweet-name">Evan Lahti</div>
+              <div id="tweet-occupation">PC Gamer</div>
+            </div>
+            <img src="./assets/twitter-card.png" alt="" id="twitter-card" />
+          </div>
+          <div class="message-tweet">“One of my gaming highlights of the year.”</div>
+          <div class="date-tweet">June 18, 2021</div>
+        </div>
+        <div class="comment-tweet" id="tweet-three">
+          <div class="profile-tweet">
+            <div class="profil-img">
+              <img src="./assets/evan-lahti.jpg" alt="" id="profile-photo" />
+              <img src="./assets/ellipse-orange.png" alt="" id="profile-photo-bg" />
+            </div>
+            <div class="bio-text">
+              <div id="tweet-name">Evan Lahti</div>
+              <div id="tweet-occupation">PC Gamer</div>
+            </div>
+            <img src="./assets/twitter-card.png" alt="" id="twitter-card" />
+          </div>
+          <div class="message-tweet">“One of my gaming highlights of the year.”</div>
+          <div class="date-tweet">June 18, 2021</div>
+        </div>
+      </div>
+    </div>
+    <!-- testimoni end -->
   </body>
 </html>
