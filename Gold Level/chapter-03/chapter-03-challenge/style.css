@@ -705,7 +705,18 @@ tr {
   margin-top: 22px;
 }
 
-.subs-footer a {
+.subs-footer p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.subs-footer-inner a {
   text-decoration: none;
   font-family: "Open Sans";
   font-style: normal;
